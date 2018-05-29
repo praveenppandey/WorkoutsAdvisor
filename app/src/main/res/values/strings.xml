@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">WorkoutsAdvisor</string>
+    <string-array name="strWorkoutTypes">
+        <item>Select Workout Types</item>
+        <item>CHEST</item>
+        <item>TRICEPS</item>
+        <item>BICEPS</item>
+        <item>SHOULDER</item>
+        <item>ABDOMEN</item>
+        <item>BACK</item>
+    </string-array>
 </resources>
