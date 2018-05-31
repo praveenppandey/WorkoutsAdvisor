@@ -1,5 +1,7 @@
 package com.example.praveenpandey.workoutsadvisor;
 
+
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,6 +9,8 @@ public class workoutDescrption
 {
     List <String> getWorkDetails (String workoutDetails)
     {
+
+
         List <String> strWorkoutValue = new ArrayList<String>();
         if(workoutDetails.equals("CHEST"))
         {
@@ -17,6 +21,13 @@ public class workoutDescrption
         {
             strWorkoutValue.add("Extension");
             strWorkoutValue.add("push ups");
+        }
+        else if (workoutDetails.equals("SHOULDER"))
+        {
+
+            strWorkoutValue.add("PULL UPS");
+            strWorkoutValue.add("SHOULDER PRESS");
+
         }
         return strWorkoutValue;
     }
